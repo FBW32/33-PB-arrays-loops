@@ -38,7 +38,7 @@ Use the appropriate loop for each section. Print all your answers to the console
 * [2, 2, 2, 2, 2, 2] ➞ [2]
 * [5, 10, 15, 20, 25] ➞ [5, 10, 15, 20, 25]
 
-6. **Repeat it.** Create a program with two variables:item and times. Create a program that repeats the "item" as many times as specified by "times". The first argument (item) is the item that needs repeating while the second argument (times) is the number of times the item is to be repeated. Print the result in an array.
+6. **Repeat it.** Create a program with two variables: "item" and "times". Create a program that repeats the "item" as many times as specified by "times". The first variable ("item") is the item that needs repeating while the second argument ("times") is the number of times the item is to be repeated. Print the result in an array.
 * Example: ("example", 3) ➞ ["example", "example", "example"]
 
 **Bonuses - Choose the loop**
@@ -55,7 +55,7 @@ Use the appropriate loop for each section. Print all your answers to the console
 * // 6 is a factor of 12 (6 * 2 = 12)
 * // 12 is a factor of 36 (12 * 3 = 36)
 
-Create a program that determines whether or not a given array is a factor chain using a while loop.
+Create a program that determines whether or not a given array is a factor chain using a do while loop.
 * Examples
 * [1, 2, 4, 8, 16, 32] ➞ true
 * [1, 1, 1, 1, 1, 1] ➞ true
