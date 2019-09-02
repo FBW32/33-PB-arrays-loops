@@ -80,12 +80,7 @@
 
 // console.log(sum);
 
-//3. Count Instances
-
-//???
-
-
-//4. capiTALize
+//3. capiTALize
 
 // let myArray = ["itaMAR", "robert", "MartINA"];
 
@@ -99,7 +94,7 @@
 
 // console.log(myArray);
 
-//5. No Duplicates
+//4. No Duplicates
 
 // let myArr1 = [1, 4, 4, 7, 7, 7];
 
@@ -125,7 +120,7 @@
 
 // console.log(myArr);
 
-// 6. Repeat It
+// 5. Repeat It
 
 // let item = "oi";
 
@@ -145,10 +140,6 @@
 // console.log(myArr);
 
 //Bonuses
-
-//Find the Odd Ones Out
-
-//???
 
 //Factors
 
