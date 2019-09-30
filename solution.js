@@ -1,98 +1,82 @@
-//Q1 Run Along
+//1. Sum of Numbers
 
-// let i = 2;
+// let numArr = [32, 46, 2];
 
-// while (i < 15) {
-//    console.log(i *= 2);
+// function addSum(array) {
+//     if (array.length < 3) {
+//         return `An array of any less than three elements displeases me.`
+//     }
+
+//     let sum = 0;
+
+//     for (let i = 0; i < array.length; i++) {
+//         sum += array[i];
+//     }
+
+//     return sum;
 // }
+
+// console.log(addSum(numArr));
 
 //Q2 City Names
 
 // let cityArr = ["Paris", "Berlin", "EveryDisco", "I-Am-In"];
 
-// let str = "";
+// function stringify(array) {
+//     let str = "";
+//     for (i = 0; i < array.length; i++) {
+//        str += array[i];
+//        if (i == array.length - 1) {
+//            str += "."
+//        } else {
+//            str += ", ";
+//        }
 
-// let i = 0;
+//     }
 
-// while (i < cityArr.length) {
-//    str += cityArr[i];
-//    if (i == cityArr.length - 1) {
-//        str += "."
-//    } else {
-//        str += ", ";
-//    }
-//    i ++;
+//     return str;
 // }
 
-// console.log(str);
+// console.log(stringify(cityArr));
 
 //Q3 Odds and Evens
 
 // let myArr = [1, 2, 3, 4];
 
-// let newArr = [];
+// function oddEvenReverser(array) {
+//     let newArr = [];
 
-// let i = 0;
+//     let newInt;
 
-// let newInt;
+//     for (i = 0; i < array.length; i++) {
+//         newInt = array[i];
+//         if (newInt % 2 !== 0) {
+//             newInt++;
+//             newArr.push(newInt);
+//         } else {
+//             newInt--;
+//             newArr.push(newInt);
+//         }
+//     }
 
-// while (i < myArr.length) {
-//    let newInt = myArr[i];
-//    if (newInt % 2 !== 0) {
-//        newInt ++;
-//        newArr.push(newInt);
-//    } else {
-//        newInt --;
-//        newArr.push(newInt);
-//    }
-//    i++;
-// } 
+//     return newArr;
+// }
 
-// console.log(newArr);
+// console.log(oddEvenReverser(myArr));
 
-// Do while loops
+//4. capiTALize
 
-//1. Sum of Numbers
+// let myArray = ["itaMAR", "rOBert", "MartIna"];
 
-// let numArr = [32, 46, 2];
+// function correctCaps(array) {
 
-// let sum = 0;
+//     for (i = 0; i < array.length; i++) {
+//         array[i] = array[i][0].toUpperCase() + array[i].substr(1).toLowerCase();
+//     }
+//     return array;
+// }
 
-// let i = 0;
-
-// do {
-//    sum+= numArr[i];
-//    i ++;
-// } while (i < numArr.length);
-
-// console.log(sum);
-
-//2. Add it up
-
-// let i = 1;
-
-// sum = 0;
-
-// do {
-//    sum += i;
-//    i ++;
-// } while (i<= 20);
-
-// console.log(sum);
-
-//3. capiTALize
-
-// let myArray = ["itaMAR", "robert", "MartINA"];
-
-// let i = 0;
-
-// do {
-//     myArray[i] = myArray[i][0].toUpperCase() + myArray[i].substr(1).toLowerCase();
-//     i++;
-
-// } while (i < myArray.length);
-
-// console.log(myArray);
+// console.log(correctCaps(myArray));
 
 //4. No Duplicates
 
@@ -104,59 +88,51 @@
 
 // let myArr4 = [5, 10, 15, 20, 25];
 
-// let myArr = myArr4; // change this value to test different arrays
-
-// let i = 0;
-
-// do {
-//     if (myArr[i] === myArr[i + 1]) {
-//         do { 
-//         myArr.splice(i, 1); 
-//         } while (myArr[i] === myArr[i + 1]);
+// function setMaker(array) {
+//     for (i = 0; i < array.length; i++) {
+//         if (array[i] === array[i + 1]) {
+//             do { 
+//             array.splice(i, 1); 
+//             } while (array[i] === array[i + 1]);
+//         }
 //     }
-//     i ++;
+//     return array;
+// }
 
-// } while (i < myArr.length);
-
-// console.log(myArr);
+// console.log(setMaker(myArr1));
 
 // 5. Repeat It
 
-// let item = "oi";
-
-// let repTimes = 5;
-
-// let myArr = [];
-
-// do {
-//     if (repTimes < 1) {
-//         myArr.push("Remember: do while loops always run at least one time before checking the condition");
-//         break;
+// function repeatIt(item, times) {
+//     let myArray = [];
+//     for (let i = 0; i < times; i++) {
+//         myArray.push(item);
 //     }
-//     myArr.push(item);
-//     repTimes --;
-// } while (repTimes > 0);
+//     return myArray;
+// }
 
-// console.log(myArr);
+// console.log(repeatIt("oi", 3));
 
 //Bonuses
 
 //Factors
 
-// let arr1 = [1, 2, 4, 8, 16, 32];
+let arr1 = [1, 2, 4, 8, 16, 32];
 
-// let arr2 = [1, 1, 1, 1, 1, 1];
+let arr2 = [1, 1, 1, 1, 1, 1];
 
-// let arr3 = [2, 4, 6, 7, 12];
+let arr3 = [2, 4, 6, 7, 12];
 
-// let arr4 = [10, 1];
+let arr4 = [10, 1];
 
-// let myArr = arr3;
+function isFactorChain(array) {
+    for (let i = 0; i < array.length; i++) {
+        if (i === array.length - 1) {
+            return true;
+        } else if (array[i + 1] % array[i] !== 0) {
+            return false;
+        }
+    }
+}
 
-// let i = -1;
-
-// do {
-//     i++;
-// } while (myArr[i + 1] % myArr[i] === 0) 
-
-// i === myArr.length - 1? console.log(true): console.log(false);
+console.log(isFactorChain(arr2));
