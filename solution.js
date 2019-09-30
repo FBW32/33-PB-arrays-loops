@@ -117,22 +117,22 @@
 
 //Factors
 
-let arr1 = [1, 2, 4, 8, 16, 32];
+// let arr1 = [1, 2, 4, 8, 16, 32];
 
-let arr2 = [1, 1, 1, 1, 1, 1];
+// let arr2 = [1, 1, 1, 1, 1, 1];
 
-let arr3 = [2, 4, 6, 7, 12];
+// let arr3 = [2, 4, 6, 7, 12];
 
-let arr4 = [10, 1];
+// let arr4 = [10, 1];
 
-function isFactorChain(array) {
-    for (let i = 0; i < array.length; i++) {
-        if (i === array.length - 1) {
-            return true;
-        } else if (array[i + 1] % array[i] !== 0) {
-            return false;
-        }
-    }
-}
+// function isFactorChain(array) {
+//     for (let i = 0; i < array.length; i++) {
+//         if (i === array.length - 1) {
+//             return true;
+//         } else if (array[i + 1] % array[i] !== 0) {
+//             return false;
+//         }
+//     }
+// }
 
-console.log(isFactorChain(arr2));
+// console.log(isFactorChain(arr1));
