@@ -1,36 +1,13 @@
 //Q1 Sum of Numbers
 
-// let numArr = [32, 46, 2];
-
-// function addSum(array) {
-//     if (array.length < 3) {
-//         return `An array of any less than three elements displeases me.`
-//     }
-
-//     let sum = 0;
-
-//     for (let i = 0; i < array.length; i++) {
-//         sum += array[i];
-//     }
-
-//     return sum;
-// }
-
-// function multiply(array) {
-//     if (array.length < 3) {
-//         return `An array of any less than three elements displeases me.`
-//     }
-
-//     let total = 1;
-
-//     for (let i = 0; i < array.length; i++) {
-//         total *= array[i];
-//     }
-
-//     return total;
-// }
-
-// console.log(`The total sum of the array is ${addSum(numArr)} and the total product of the array is ${multiply(numArr)}`);
+//let myArr = [4, 3, 13, 2];
+//let mySum = 0;
+//let myProduct = 1;
+//for (let i = 0; i < myArr.length; i ++) {
+//    mySum += myArr[i];
+//    myProduct *= myArr[i];
+//}
+//console.log(`The sum of the array is ${mySum}; the product of the //array is ${myProduct}.`);
 
 // Q2 Hello Frien
 
