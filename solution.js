@@ -7,7 +7,7 @@
 //    mySum += myArr[i];
 //    myProduct *= myArr[i];
 //}
-//console.log(`The sum of the array is ${mySum}; the product of the //array is ${myProduct}.`);
+//console.log(`The sum of the array is ${mySum}; the product of the array is ${myProduct}.`);
 
 // Q2 Hello Frien
 
