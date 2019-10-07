@@ -16,7 +16,21 @@
 //     return sum;
 // }
 
-// console.log(addSum(numArr));
+// function multiply(array) {
+//     if (array.length < 3) {
+//         return `An array of any less than three elements displeases me.`
+//     }
+
+//     let total = 1;
+
+//     for (let i = 0; i < array.length; i++) {
+//         total *= array[i];
+//     }
+
+//     return total;
+// }
+
+// console.log(`The total sum of the array is ${addSum(numArr)} and the total product of the array is ${multiply(numArr)}`);
 
 // Q2 Hello Frien
 
