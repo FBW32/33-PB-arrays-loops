@@ -1,4 +1,4 @@
-//1. Sum of Numbers
+//Q1 Sum of Numbers
 
 // let numArr = [32, 46, 2];
 
@@ -18,7 +18,15 @@
 
 // console.log(addSum(numArr));
 
-//Q2 City Names
+// Q2 Hello Frien
+
+//let friends = ["Becky", "Dan", "Rika", "Maria", "Kevin"];
+//for (let i = 0; i < friends.length; i++) {
+//    console.log(`Hello ${friends[i]}!`);
+//    console.log(`${friends[i]} is at index ${i} of my friends array!`);
+//}
+
+//Q3 City Names
 
 // let cityArr = ["Paris", "Berlin", "EveryDisco", "I-Am-In"];
 
@@ -39,7 +47,7 @@
 
 // console.log(stringify(cityArr));
 
-//Q3 Odds and Evens
+//Q4 Odds and Evens
 
 // let myArr = [1, 2, 3, 4];
 
@@ -64,7 +72,7 @@
 
 // console.log(oddEvenReverser(myArr));
 
-//4. capiTALize
+//Q5 capiTALize
 
 // let myArray = ["itaMAR", "rOBert", "MartIna"];
 
@@ -78,7 +86,7 @@
 
 // console.log(correctCaps(myArray));
 
-//4. No Duplicates
+//Q6 No Duplicates
 
 // let myArr1 = [1, 4, 4, 7, 7, 7];
 
@@ -101,7 +109,7 @@
 
 // console.log(setMaker(myArr1));
 
-// 5. Repeat It
+// Q7 Repeat It
 
 // function repeatIt(item, times) {
 //     let myArray = [];
