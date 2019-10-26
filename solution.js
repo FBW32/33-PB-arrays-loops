@@ -1,25 +1,25 @@
-//Q1 Sum of Numbers
+// Q1 Sum of Numbers
 
-//let myArr = [4, 3, 13, 2];
-//let mySum = 0;
-//let myProduct = 1;
-//for (let i = 0; i < myArr.length; i ++) {
+// let myArr = [4, 3, 13, 2];
+// let mySum = 0;
+// let myProduct = 1;
+// for (let i = 0; i < myArr.length; i ++) {
 //    mySum += myArr[i];
 //    myProduct *= myArr[i];
-//}
-//console.log(`The sum of the array is ${mySum}; the product of the array is ${myProduct}.`);
+// }
+// console.log(`The sum of the array is ${mySum}; the product of the array is ${myProduct}.`);
 
-// Q2 Hello Frien
+// // Q2 Hello Frien
 
-//let friends = ["Becky", "Dan", "Rika", "Maria", "Kevin"];
-//for (let i = 0; i < friends.length; i++) {
+// const friends = ["Becky", "Dan", "Rika", "Maria", "Kevin"];
+// for (let i = 0; i < friends.length; i++) {
 //    console.log(`Hello ${friends[i]}!`);
 //    console.log(`${friends[i]} is at index ${i} of my friends array!`);
-//}
+// }
 
-//Q3 City Names
+// // Q3 City Names
 
-// let cityArr = ["Paris", "Berlin", "EveryDisco", "I-Am-In"];
+// const cityArr = ["Paris", "Berlin", "EveryDisco", "I-Am-In"];
 
 // function stringify(array) {
 //     let str = "";
@@ -38,9 +38,9 @@
 
 // console.log(stringify(cityArr));
 
-//Q4 Odds and Evens
+// // Q4 Odds and Evens
 
-// let myArr = [1, 2, 3, 4];
+// const myArr = [1, 2, 3, 4];
 
 // function oddEvenReverser(array) {
 //     let newArr = [];
@@ -63,9 +63,9 @@
 
 // console.log(oddEvenReverser(myArr));
 
-//Q5 capiTALize
+// // Q5 capiTALize
 
-// let myArray = ["itaMAR", "rOBert", "MartIna"];
+// const myArray = ["itaMAR", "rOBert", "MartIna"];
 
 // function correctCaps(array) {
 
@@ -77,15 +77,15 @@
 
 // console.log(correctCaps(myArray));
 
-//Q6 No Duplicates
+// // Q6 No Duplicates
 
-// let myArr1 = [1, 4, 4, 7, 7, 7];
+// const myArr1 = [1, 4, 4, 7, 7, 7];
 
-// let myArr2 = [1, 6, 6, 9, 9];
+// const myArr2 = [1, 6, 6, 9, 9];
 
-// let myArr3 = [2, 2, 2, 2, 2, 2];
+// const myArr3 = [2, 2, 2, 2, 2, 2];
 
-// let myArr4 = [5, 10, 15, 20, 25];
+// const myArr4 = [5, 10, 15, 20, 25];
 
 // function setMaker(array) {
 //     for (i = 0; i < array.length; i++) {
@@ -100,7 +100,7 @@
 
 // console.log(setMaker(myArr1));
 
-// Q7 Repeat It
+// // Q7 Repeat It
 
 // function repeatIt(item, times) {
 //     let myArray = [];
@@ -112,17 +112,17 @@
 
 // console.log(repeatIt("oi", 3));
 
-//Bonuses
+// // Bonuses
 
-//Factors
+// // Factors
 
-// let arr1 = [1, 2, 4, 8, 16, 32];
+// const arr1 = [1, 2, 4, 8, 16, 32];
 
-// let arr2 = [1, 1, 1, 1, 1, 1];
+// const arr2 = [1, 1, 1, 1, 1, 1];
 
-// let arr3 = [2, 4, 6, 7, 12];
+// const arr3 = [2, 4, 6, 7, 12];
 
-// let arr4 = [10, 1];
+// const arr4 = [10, 1];
 
 // function isFactorChain(array) {
 //     for (let i = 0; i < array.length; i++) {
