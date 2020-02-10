@@ -25,6 +25,7 @@
 * [5, 10, 15, 20, 25] ➞ [5, 10, 15, 20, 25]
 
 7. **Repeat it.** Create a program with two variables: "item" and "times". Create a program that repeats the "item" as many times as specified by "times". The first variable ("item") is the item that needs repeating while the second argument ("times") is the number of times the item is to be repeated. Print the result in an array.
+
 * Example: ("example", 3) ➞ ["example", "example", "example"]
 
 **Bonuses - Choose the loop**
@@ -42,4 +43,11 @@ Create a program that determines whether or not a given array is a factor chain.
 * [1, 1, 1, 1, 1, 1] ➞ true
 * [2, 4, 6, 7, 12] ➞ false
 * [10, 1] ➞ false
+
+**No Duplicates!** A set is a collection of unique items. A set can be formed from an array by removing all duplicate items. Create a program which transforms an array into a set of unique values. See the examples below. Example:
+* [1, 4, 4, 7, 7, 7] ➞ [1, 4, 7]
+
+* [1, 6, 6, 9, 9] ➞ [1, 6, 9]
+* [2, 2, 2, 2, 2, 2] ➞ [2]
+* [5, 10, 15, 20, 25] ➞ [5, 10, 15, 20, 25]
 
