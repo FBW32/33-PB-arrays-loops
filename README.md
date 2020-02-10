@@ -16,8 +16,16 @@
 * ["Cynthia", "Karen", "Jane", "Carrie"] ➞ ["Cynthia", "Karen", "Jane", "Carrie"]
 
 * **Note:** Keep names in the same order and make sure that only the first lesson of the name is capitalised (See "Maria" in the second above example). 
+	
+6. **No Duplicates!** A set is a collection of unique items. A set can be formed from an array by removing all duplicate items. Create a program which transforms an array into a set of unique values. See the examples below. Example:
+* [1, 4, 4, 7, 7, 7] ➞ [1, 4, 7]
 
-6. **Repeat it.** Create a program with two variables: "item" and "times". Create a program that repeats the "item" as many times as specified by "times". The first variable ("item") is the item that needs repeating while the second argument ("times") is the number of times the item is to be repeated. Print the result in an array.
+* [1, 6, 6, 9, 9] ➞ [1, 6, 9]
+* [2, 2, 2, 2, 2, 2] ➞ [2]
+* [5, 10, 15, 20, 25] ➞ [5, 10, 15, 20, 25]
+
+7. **Repeat it.** Create a program with two variables: "item" and "times". Create a program that repeats the "item" as many times as specified by "times". The first variable ("item") is the item that needs repeating while the second argument ("times") is the number of times the item is to be repeated. Print the result in an array.
+
 * Example: ("example", 3) ➞ ["example", "example", "example"]
 
 **Bonuses - Choose the loop**
