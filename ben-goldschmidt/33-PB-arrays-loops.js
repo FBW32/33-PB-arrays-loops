@@ -135,7 +135,6 @@ let capFirstLetter = (namesInput) => {
     console.log("Lower Case")
     console.log(lowerCased)
     let newLowerCased = [];
-    let newLowerCased2;
     let newcapitalised = [];
 
     console.log("")
@@ -145,7 +144,7 @@ let capFirstLetter = (namesInput) => {
             // console.log(j)
             // console.log(lowerCased[i][j])
             if (j === 0) {
-                newLowerCased = lowerCased[i][j].toUpperCase();
+                newLowerCased = lowerCased[i][j].toUpperCase() + lowerCased[i].substr(1).toLowerCase();
             }
         }
         newcapitalised.push(newLowerCased);
@@ -158,6 +157,13 @@ capFirstLetter(names3);
 
 // Upper Case
 // [ 'C', 'K', 'J', 'C' ]
+
+
+// newArr = [];
+// for (let k = 0; k < arrInput1.length; k++) {
+//     newItems = ((arrInput1[k].charAt(0).toUpperCase() + nameArr[k].slice(1).toLowerCase()));
+//     newArr = newArr.concat();
+//}
 
 
 
